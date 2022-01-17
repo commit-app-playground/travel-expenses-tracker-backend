@@ -4,8 +4,18 @@
   "description": "A simple http server: hello world",
   "main": "app.js",
   "scripts": {
-    "start": "node ."
+    "start": "nest start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.2.5",
+    "@nestjs/core": "^8.2.5",
+    "@nestjs/platform-express": "^8.2.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.2.0"
+  }
 }
